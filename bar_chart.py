@@ -17,6 +17,7 @@ stations = ['ISS','Tiangong']
 statdata = [iss, tg]
 
 matplotlib.pyplot.xlabel('Space Stations')
+matplotlib.pyplot.title('# of People at Each Space Station')
 matplotlib.pyplot.ylabel('Number of People Currently There')
 matplotlib.pyplot.bar(stations,statdata)
 matplotlib.pyplot.show()
